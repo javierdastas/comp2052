@@ -91,3 +91,5 @@ Actualiza una tarea. Cuerpo esperado:
 ```plaintext
 { "old": "Tarea anterior", "new": "Tarea nueva" }
 ```
+
+#### Benyahir Y. Martinez 
