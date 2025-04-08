@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
@@ -13,7 +13,8 @@ def home():
     Ruta raíz de la API.
     Retorna un mensaje simple para indicar que el servicio está activo.
     """
-    return "Simple TODO API"
+   # return "Simple TODO API"
+   
 
 @app.route("/todos", methods=["GET"])
 def select_todos():
